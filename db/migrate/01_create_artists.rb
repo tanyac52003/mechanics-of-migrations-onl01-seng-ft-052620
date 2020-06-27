@@ -6,5 +6,8 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   end 
   
   def change 
-  end 
+  end
+  
+  ActiveRecord::Base.establish_connection
+  
 end 
