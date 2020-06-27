@@ -4,4 +4,7 @@ class CreateArtists < ActiveRecord::MIgration[5.2]
   
   def down
   end 
+  
+  def change 
+  end 
 end 
